@@ -2,8 +2,8 @@
 The R script, run_analysis.R, downloads the accelerometer and gyroscope smartphone data collected by Samsung and tidies the data. The resulting dataset contains 30 rows representing 30 subjects and 25 columns represent variables explained in the codebook below. R script contains more specific comments as to the each step of process.
 
 Selection of Variables:
-1. All variables containing "mean" or "std" were selected.
-2. All variables containing "acc" and "mean" were selected and averaged for each row. The new average represent average mean acceleration as measured by the accelerometer.
+1. All variables containing "mean" or "std" were selected./n
+2. All variables containing "acc" and "mean" were selected and averaged for each row. The new average represent average mean acceleration as measured by the accelerometer./n
 3. All variables containing "acc" and "std" were selected and averaged for each row. The new average represent average std acceleration as measured by the accelerometer.
 4. All variables containing "gyro" and "mean" were selected and averaged for each row. The new average represent average mean velocity as measured by the gyroscope.
 5. All variables containing "gyro" and "std" were selected and averaged for each row. The new average represent average std velocity as measured by the gyroscope.
